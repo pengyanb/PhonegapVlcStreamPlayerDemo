@@ -52,6 +52,10 @@
 		AD61614A97194E2C9E643779 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A76FD9AD604C12A0173179 /* Foundation.framework */; };
 		B8CC42AE1C6AB74C0019E7E3 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CC42AD1C6AB74C0019E7E3 /* MobileVLCKit.framework */; };
 		B8CC42B71C6ABC850019E7E3 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */; };
+		B8D7BC141C6BF380007076E7 /* libbz2.1.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D7BC101C6BF380007076E7 /* libbz2.1.0.dylib */; };
+		B8D7BC151C6BF380007076E7 /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D7BC111C6BF380007076E7 /* libiconv.2.dylib */; };
+		B8D7BC161C6BF380007076E7 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D7BC121C6BF380007076E7 /* libstdc++.6.0.9.dylib */; };
+		B8D7BC171C6BF380007076E7 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B8D7BC131C6BF380007076E7 /* libz.1.dylib */; };
 		D4A0D8761607E02300AEF8BB /* Default-568h@2x~iphone.png in Resources */ = {isa = PBXBuildFile; fileRef = D4A0D8751607E02300AEF8BB /* Default-568h@2x~iphone.png */; };
 		E0214D9050044C748A971C1E /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE157E45EDBE4F7798CA725F /* OpenGLES.framework */; };
 		E26A01ADBB3F46CD990C44CA /* PybVlcStreamPlayerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 32E87AB0E2044BDEA18E4612 /* PybVlcStreamPlayerHelper.m */; };
@@ -127,6 +131,10 @@
 		8D1107310486CEB800E47090 /* Phonegap VLC Stream Player Demo-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Phonegap VLC Stream Player Demo-Info.plist"; path = "../Phonegap VLC Stream Player Demo-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		9B635E07ECAB441C92ED8E12 /* CFNetwork.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		B8CC42AD1C6AB74C0019E7E3 /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileVLCKit.framework; sourceTree = "<group>"; };
+		B8D7BC101C6BF380007076E7 /* libbz2.1.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libbz2.1.0.dylib; path = ../../../../../../../../../../usr/lib/libbz2.1.0.dylib; sourceTree = "<group>"; };
+		B8D7BC111C6BF380007076E7 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = ../../../../../../../../../../usr/lib/libiconv.2.dylib; sourceTree = "<group>"; };
+		B8D7BC121C6BF380007076E7 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "../../../../../../../../../../usr/lib/libstdc++.6.0.9.dylib"; sourceTree = "<group>"; };
+		B8D7BC131C6BF380007076E7 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../../../../../../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
 		BEED0566BF8A4EFCABA3D997 /* AudioToolbox.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		C850981758374858A747BCC7 /* libiconv.dylib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = "usr/lib//usr/lib/libiconv.dylib"; sourceTree = SDKROOT; };
 		CE157E45EDBE4F7798CA725F /* OpenGLES.framework */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
@@ -144,6 +152,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8D7BC141C6BF380007076E7 /* libbz2.1.0.dylib in Frameworks */,
+				B8D7BC151C6BF380007076E7 /* libiconv.2.dylib in Frameworks */,
+				B8D7BC161C6BF380007076E7 /* libstdc++.6.0.9.dylib in Frameworks */,
+				B8D7BC171C6BF380007076E7 /* libz.1.dylib in Frameworks */,
 				B8CC42B71C6ABC850019E7E3 /* MobileCoreServices.framework in Frameworks */,
 				B8CC42AE1C6AB74C0019E7E3 /* MobileVLCKit.framework in Frameworks */,
 				5B1594DD16A7569C00FEF299 /* AssetsLibrary.framework in Frameworks */,
@@ -231,6 +243,10 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B8D7BC101C6BF380007076E7 /* libbz2.1.0.dylib */,
+				B8D7BC111C6BF380007076E7 /* libiconv.2.dylib */,
+				B8D7BC121C6BF380007076E7 /* libstdc++.6.0.9.dylib */,
+				B8D7BC131C6BF380007076E7 /* libz.1.dylib */,
 				B8CC42AD1C6AB74C0019E7E3 /* MobileVLCKit.framework */,
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
